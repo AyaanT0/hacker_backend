@@ -170,8 +170,24 @@ const roleRouter = require("./routes/api/role");
 const app = express();
 Services.db.connect(app);
 
-// app.use(cors()); // Allow CORS for all origins
+// const corsOpts = {
+//     origin: "*",
+
+//     methods: ["GET", "DELETE", "PUT", "POST"],
+
+//     allowedHeaders: ["Content-Type"]
+// };
+
+// app.use(cors(corsOpts));
+
+// Allow CORS for all origins
 ///
+// app.use(
+//     cors({
+//         origin: "http://localhost:1337",
+//         credentials: true // This is important for handling credentials in your requests
+//     })
+// );
 app.use(
     cors({
         origin: "http://localhost:1337",
