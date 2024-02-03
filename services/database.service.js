@@ -97,14 +97,12 @@
 //         return mongoose.connection.readyState;
 //     }
 // };
-
 "use strict";
 const mongoose = require("mongoose");
 const logger = require("./logger.service");
-const Q = require("q");
+const env = require("./env.service");
 
 const TAG = "[ DATABASE SERVICE ]";
-const env = require("./env.service");
 
 function getAddressFromEnvironment() {
     return env.isDevelopment()
@@ -132,21 +130,17 @@ function getPassFromEnvironment() {
 
 module.exports = {
     connect: async function(app, callback) {
-        mongoose.Promise = Q.promise;
+        mongoose.Promise = global.Promise;
+
         const user = getUserFromEnvironment();
         const pass = getPassFromEnvironment();
         const address = getAddressFromEnvironment();
 
         const url = process.env.DB_ADDRESS_DEV;
-        logger.info(`${TAG} Connecting to database on ${url}`);
 
         try {
-            // Set loading state to true before connecting
-            if (app) {
-                app.emit("event:connecting to db");
-            }
+            console.log("Connecting to the database...");
 
-            // Connect to MongoDB
             await mongoose.connect(url, {
                 useNewUrlParser: true,
                 useCreateIndex: true,
@@ -154,21 +148,17 @@ module.exports = {
                 useUnifiedTopology: true
             });
 
-            // Connection successful
             logger.info(`${TAG} Connected to database on ${url}`);
 
-            // Set loading state to false after connecting
             if (app) {
                 app.emit("event:connected to db");
             }
 
-            // Execute callback if provided
             if (callback) {
                 callback();
             }
         } catch (error) {
-            // Handle connection error
-            logger.error(
+            console.error(
                 `${TAG} Failed to connect to database at ${url}. Error: ${error}`
             );
             throw `Failed to connect to database at ${url}`;
