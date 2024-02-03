@@ -145,7 +145,9 @@ module.exports = {
         //         ? `mongodb://${user}:${pass}@${address}`
         //         : `mongodb://${address}`;
         // logger.info(`${TAG} Connecting to db on ${url}`);
+        // const url = process.env.DB_ADDRESS_DEV;
         const url = process.env.DB_ADDRESS_DEV;
+        logger.info(`${TAG} Connecting to db on ${url}`);
         mongoose
             .connect(url, {
                 useNewUrlParser: true,
