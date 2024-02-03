@@ -190,7 +190,8 @@ Services.db.connect(app);
 // );
 app.use(
     cors({
-        origin: "http://localhost:1337",
+        // origin: "http://localhost:1338",
+        origin: "https://hackathon-registration-final-xliy.vercel.app/",
         credentials: true // This is important for handling credentials in your requests
     })
 );
