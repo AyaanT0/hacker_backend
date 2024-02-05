@@ -6,7 +6,8 @@ module.exports = {
     onSuccessfulLogin: function(req, res) {
         return res.status(200).json({
             message: Success.LOGIN,
-            data: {}
+            data: req.user || {}
+            // data: {}
         });
     },
     logout: function(req, res) {
