@@ -149,7 +149,7 @@
     "groupTitle": "Account",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/account/"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/account/"
       }
     ]
   },
@@ -231,7 +231,7 @@
     "groupTitle": "Account",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/account/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/account/:id"
       }
     ]
   },
@@ -256,7 +256,7 @@
     "groupTitle": "Account",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/account/invite"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/account/invite"
       }
     ]
   },
@@ -346,7 +346,7 @@
     "groupTitle": "Account",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/account/invite"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/account/invite"
       }
     ]
   },
@@ -415,7 +415,7 @@
     "groupTitle": "Account",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/account/self"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/account/self"
       }
     ]
   },
@@ -553,7 +553,7 @@
     "groupTitle": "Account",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/account/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/account/:id"
       }
     ]
   },
@@ -627,7 +627,7 @@
     "groupTitle": "Authentication",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/auth/password/change"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/auth/password/change"
       }
     ]
   },
@@ -709,7 +709,7 @@
     "groupTitle": "Authentication",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/auth/confirm/:token"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/auth/confirm/:token"
       }
     ]
   },
@@ -776,7 +776,7 @@
     "groupTitle": "Authentication",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/auth/password/forgot"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/auth/password/forgot"
       }
     ]
   },
@@ -858,7 +858,7 @@
     "groupTitle": "Authentication",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/auth/rolebindings/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/auth/rolebindings/:id"
       }
     ]
   },
@@ -901,7 +901,7 @@
     "groupTitle": "Authentication",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/auth/roles"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/auth/roles"
       }
     ]
   },
@@ -995,7 +995,7 @@
     "groupTitle": "Authentication",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/auth/login"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/auth/login"
       }
     ]
   },
@@ -1042,7 +1042,7 @@
     "groupTitle": "Authentication",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/auth/logout"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/auth/logout"
       }
     ]
   },
@@ -1116,7 +1116,7 @@
     "groupTitle": "Authentication",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/auth/confirm/resend"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/auth/confirm/resend"
       }
     ]
   },
@@ -1203,7 +1203,7 @@
     "groupTitle": "Authentication",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/auth/password/reset"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/auth/password/reset"
       }
     ]
   },
@@ -1262,7 +1262,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/batchAccept/"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/batchAccept/"
       }
     ]
   },
@@ -1309,7 +1309,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/acceptEmail/:email"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/acceptEmail/:email"
       }
     ]
   },
@@ -1356,7 +1356,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/accept/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/accept/:id"
       }
     ]
   },
@@ -1419,7 +1419,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/checkin/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/checkin/:id"
       }
     ]
   },
@@ -1564,7 +1564,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/"
       }
     ]
   },
@@ -1646,7 +1646,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/:id"
       }
     ]
   },
@@ -1728,7 +1728,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/email/:email"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/email/:email"
       }
     ]
   },
@@ -1858,7 +1858,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/stats"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/stats"
       }
     ]
   },
@@ -1990,7 +1990,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/:id"
       }
     ]
   },
@@ -2053,7 +2053,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/confirmation/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/confirmation/:id"
       }
     ]
   },
@@ -2113,7 +2113,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/status/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/status/:id"
       }
     ]
   },
@@ -2183,7 +2183,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/resume/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/resume/:id"
       }
     ]
   },
@@ -2244,7 +2244,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/email/dayOf/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/email/dayOf/:id"
       }
     ]
   },
@@ -2305,7 +2305,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/email/weekOf/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/email/weekOf/:id"
       }
     ]
   },
@@ -2366,7 +2366,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/email/weekOf/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/email/weekOf/:id"
       }
     ]
   },
@@ -2440,7 +2440,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/sponsor/self"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/sponsor/self"
       }
     ]
   },
@@ -2509,7 +2509,7 @@
     "groupTitle": "Hacker",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/hacker/self"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/hacker/self"
       }
     ]
   },
@@ -2529,7 +2529,7 @@
     "groupTitle": "Index",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/"
       }
     ]
   },
@@ -2625,7 +2625,7 @@
     "groupTitle": "Role",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/api/role/"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/api/role/"
       }
     ]
   },
@@ -2754,7 +2754,7 @@
     "groupTitle": "Search",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/search/"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/search/"
       }
     ]
   },
@@ -2801,7 +2801,7 @@
     "groupTitle": "Settings",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/settings/"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/settings/"
       }
     ]
   },
@@ -2882,7 +2882,7 @@
     "groupTitle": "Settings",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/settings/"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/settings/"
       }
     ]
   },
@@ -2992,7 +2992,7 @@
     "groupTitle": "Sponsor",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/sponsor/"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/sponsor/"
       }
     ]
   },
@@ -3074,7 +3074,7 @@
     "groupTitle": "Sponsor",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/sponsor/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/sponsor/:id"
       }
     ]
   },
@@ -3179,7 +3179,7 @@
     "groupTitle": "Sponsor",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/sponsor/"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/sponsor/"
       }
     ]
   },
@@ -3275,7 +3275,7 @@
     "groupTitle": "Team",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/team/"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/team/"
       }
     ]
   },
@@ -3317,7 +3317,7 @@
     "groupTitle": "Team",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/team/leave/"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/team/leave/"
       }
     ]
   },
@@ -3399,7 +3399,7 @@
     "groupTitle": "Team",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/team/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/team/:id"
       }
     ]
   },
@@ -3454,7 +3454,7 @@
     "groupTitle": "Team",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/team/join/"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/team/join/"
       }
     ]
   },
@@ -3537,7 +3537,7 @@
     "groupTitle": "Team",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/team/:hackerId"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/team/:hackerId"
       }
     ]
   },
@@ -3626,7 +3626,7 @@
     "groupTitle": "Travel",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/travel/"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/travel/"
       }
     ]
   },
@@ -3708,7 +3708,7 @@
     "groupTitle": "Travel",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/travel/email/:email"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/travel/email/:email"
       }
     ]
   },
@@ -3790,7 +3790,7 @@
     "groupTitle": "Travel",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/travel/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/travel/:id"
       }
     ]
   },
@@ -3850,7 +3850,7 @@
     "groupTitle": "Travel",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/travel/offer/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/travel/offer/:id"
       }
     ]
   },
@@ -3910,7 +3910,7 @@
     "groupTitle": "Travel",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/travel/status/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/travel/status/:id"
       }
     ]
   },
@@ -3979,7 +3979,7 @@
     "groupTitle": "Travel",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/travel/self"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/travel/self"
       }
     ]
   },
@@ -4061,7 +4061,7 @@
     "groupTitle": "Volunteer",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/volunteer/"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/volunteer/"
       }
     ]
   },
@@ -4143,7 +4143,7 @@
     "groupTitle": "Volunteer",
     "sampleRequest": [
       {
-        "url": "https://api.mchacks.ca/api/volunteer/:id"
+        "url": "https://hackerapis-9cc2b197a740.herokuapp.com/api/volunteer/:id"
       }
     ]
   }
