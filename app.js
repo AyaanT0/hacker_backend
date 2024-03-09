@@ -191,7 +191,7 @@ Services.db.connect(app);
 app.use(
     cors({
         // origin: "http://localhost:1338",
-        origin: "https://hackathon-registration-final-xliy.vercel.app",
+        origin: "https://apply.vikinghacks.org",
 
         credentials: true // This is important for handling credentials in your requests
     })
