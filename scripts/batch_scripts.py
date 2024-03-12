@@ -39,7 +39,7 @@ LOG_VERBOSITIES = {
 CHOSEN_VERBOSITY = 3
 
 
-API_URL = 'https://api.mchacks.ca'
+API_URL = 'https://hackerapis-9cc2b197a740.herokuapp.com/'
 
 
 s = requests.Session()
