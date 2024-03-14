@@ -54,6 +54,8 @@ if (!Services.env.isProduction()) {
     };
 }
 
+corsOptions.origin.push('https://apply.vikinghacks.org');
+
 app.use(cors(corsOptions));
 app.use(Services.log.requestLogger);
 app.use(Services.log.errorLogger);
