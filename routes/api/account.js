@@ -53,7 +53,7 @@ module.exports = {
          */
         accountRouter.route("/self").get(
             Middleware.Auth.ensureAuthenticated(),
-            Middleware.Auth.ensureAuthorized(),
+            /*Middleware.Auth.ensureAuthorized(),*/
 
             Middleware.Account.getByEmail,
             Controllers.Account.showAccount
